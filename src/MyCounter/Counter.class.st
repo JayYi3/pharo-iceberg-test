@@ -24,3 +24,13 @@ Counter >> count [
 Counter >> count: num [
 	count := num
 ]
+
+{ #category : #API }
+Counter >> decrement [ 
+	count := count - 1
+]
+
+{ #category : #API }
+Counter >> increment [ 
+	count := count + 1
+]
